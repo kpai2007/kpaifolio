@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Krishna Pai V. | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: #f5f7fa;
+            color: #1f2937;
+        }
+
+        header {
+            background: #111827;
+            color: white;
+            padding: 18px 8%;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            color: #60a5fa;
+        }
+
+        .hero {
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            padding: 60px 8%;
+            background: linear-gradient(135deg, #111827, #1e3a8a);
+            color: white;
+        }
+
+        .hero-content {
+            max-width: 750px;
+        }
+
+        .hero h1 {
+            font-size: 52px;
+            margin-bottom: 10px;
+        }
+
+        .hero h2 {
+            font-size: 24px;
+            font-weight: normal;
+            color: #93c5fd;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #dbeafe;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: white;
+            color: #111827;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .btn:hover {
+            background: #dbeafe;
+        }
+
+        section {
+            padding: 70px 8%;
+        }
+
+        section h2 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 40px;
+            color: #111827;
+        }
+
+        .about {
+            max-width: 850px;
+            margin: auto;
+            text-align: center;
+            font-size: 17px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+
+        .card h3 {
+            margin-bottom: 12px;
+            color: #1d4ed8;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+        }
+
+        .skill {
+            background: #dbeafe;
+            color: #1e3a8a;
+            padding: 10px 18px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        .timeline {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .timeline-item {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-left: 5px solid #2563eb;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+        }
+
+        .contact {
+            text-align: center;
+            background: #111827;
+            color: white;
+        }
+
+        .contact h2 {
+            color: white;
+        }
+
+        .contact p {
+            margin: 10px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #0b1120;
+            color: #9ca3af;
+        }
+
+        @media (max-width: 700px) {
+            nav ul {
+                display: none;
+            }
+
+            .hero h1 {
+                font-size: 38px;
+            }
+
+            .hero h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <div class="logo">Krishna Pai V.</div>
+
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<!-- HERO -->
+
+<section class="hero">
+    <div class="hero-content">
+
+        <h1>Krishna Pai V.</h1>
+
+        <h2>BSc Physics Student | Electronics & IoT Enthusiast</h2>
+
+        <p>
+            Physics student from Kochi with a growing interest in
+            electronics, embedded systems, programming, and scientific technology.
+        </p>
+
+        <a href="#projects" class="btn">View My Work</a>
+        <a href="#contact" class="btn">Contact Me</a>
+
+    </div>
+</section>
+
+
+<!-- ABOUT -->
+
+<section id="about">
+
+    <h2>About Me</h2>
+
+    <div class="about">
+
+        <p>
+            I am a second-year BSc Physics student at The Cochin College,
+            Kochi. I am passionate about physics and interested in exploring
+            the connection between science and technology.
+        </p>
+
+        <br>
+
+        <p>
+            My interests include electronics, embedded systems, IoT,
+            programming, astrophysics and modern physics. I enjoy learning
+            through practical experimentation and building small
+            electronics-based projects.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- EDUCATION -->
+
+<section id="education">
+
+    <h2>Education</h2>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+
+            <h3>BSc Physics</h3>
+
+            <p><strong>The Cochin College, Kochi</strong></p>
+
+            <p>2026 – 2029 | Currently in 2nd Year</p>
+
+            <br>
+
+            <p>
+                Areas of interest: Physics, Modern Physics, Electronics,
+                Digital Electronics, Astrophysics and Scientific Technology.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SKILLS -->
+
+<section id="skills">
+
+    <h2>Technical Skills</h2>
+
+    <div class="skills">
+
+        <span class="skill">Python</span>
+        <span class="skill">HTML</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">MySQL</span>
+        <span class="skill">Arduino</span>
+        <span class="skill">ESP32</span>
+        <span class="skill">Digital Electronics</span>
+        <span class="skill">IoT</span>
+        <span class="skill">Microsoft Excel</span>
+        <span class="skill">PowerPoint</span>
+        <span class="skill">Microsoft Word</span>
+
+    </div>
+
+</section>
+
+
+<!-- PROJECTS -->
+
+<section id="projects">
+
+    <h2>Projects & Academic Work</h2>
+
+    <div class="grid">
+
+        <div class="card">
+
+            <h3>Arduino Experiments</h3>
+
+            <p>
+                Hands-on experimentation with Arduino including LED blinking,
+                SOS signaling, LDR-based systems and ultrasonic parking
+                sensor concepts.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>ESP32 Experiments</h3>
+
+            <p>
+                Practical experimentation with ESP32 involving LEDs,
+                LDR sensors, temperature and humidity monitoring,
+                buzzers and remote control concepts.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>IoT-Based Smart Farming</h3>
+
+            <p>
+                <strong>Seminar</strong> exploring the application of IoT
+                technologies in agriculture, including smart irrigation,
+                environmental monitoring and sensor-based systems.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- EXPERIENCE -->
+
+<section id="experience">
+
+    <h2>Experience</h2>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+
+            <h3>Marketing & Operations Executive</h3>
+
+            <p><strong>Advance Software Consultancy (ASC)</strong></p>
+
+            <p>October 2025 – Present</p>
+
+            <br>
+
+            <p>
+                Experience in marketing activities, operational coordination,
+                professional communication, task management and productivity
+                tools.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- INTERESTS -->
+
+<section>
+
+    <h2>Areas of Interest</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>Physics</h3>
+            <p>Modern physics, fundamental concepts and scientific exploration.</p>
+        </div>
+
+        <div class="card">
+            <h3>Astrophysics</h3>
+            <p>Space science, cosmology and understanding the universe.</p>
+        </div>
+
+        <div class="card">
+            <h3>Electronics</h3>
+            <p>Digital electronics, embedded systems and electronic circuits.</p>
+        </div>
+
+        <div class="card">
+            <h3>IoT & Technology</h3>
+            <p>Connected devices, sensors, automation and microcontrollers.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact">
+
+    <h2>Let's Connect</h2>
+
+    <p>Interested in science, technology and meaningful projects.</p>
+
+    <p><strong>Location:</strong> Kochi, Kerala, India</p>
+
+    <!-- Add your actual email and links here -->
+
+    <p>Email: your-email@example.com</p>
+
+</section>
+
+
+<footer>
+
+    <p>© 2026 Krishna Pai V. | Personal Portfolio</p>
+
+</footer>
+
+</body>
+</html>
